@@ -1,0 +1,103 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: antiquewhite;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.signUp {
+  /* background-color: rgb(178, 83, 83); */
+  min-height: 400px !important;
+}
+
+.signUpButton {
+  background-color: rgb(178, 83, 83);
+}
+
+.dropdown-item.active{
+  background-color: rgb(178, 83, 83)!important;
+}
+.dropdown-item:hover{
+  background-color: rgb(178, 83, 83);
+  color:white
+}
+.home:hover{
+  color:antiquewhite !important;
+}
+
+a:hover{
+color:rgb(178, 83, 83)
+}
+
+.dropdown-toggle{
+  background-color: antiquewhite!important;
+}
+.dropdown-toggle:hover{
+  background-color: rgb(178, 83, 83)!important;
+  color:antiquewhite
+}
+
+
+
+
+
+.fontAwesome {
+  position: relative
+}
+
+.fontIcon {
+  position: absolute;
+  top: 40px;
+  right: 20px;
+  color: gray;
+}
+
+.addButton{
+  background-color: antiquewhite;
+}
+.sideBar{
+ min-height:570px;
+  position:fixed;
+}
+.sideBarText{
+  color: rgb(178, 83, 83);
+}
+.sidebarList{
+  cursor:pointer
+}
+.count{
+  font-size:12px;
+  padding:4px;
+}
+.img{
+   width:250px;
+   height:200px;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+
+  body {
+    color: white;
+    background: black;
+  }
+
+  .card-height{
+    max-height:200 px !important;
+  }
+}
+
